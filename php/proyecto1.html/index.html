@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Formulario</title>
+</head>
+<div body>
+    <style>
+        .container {
+            background-image: url(./images/fondo.jpg);
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .carousel-control-prev {
+            margin-left: -105px;
+           
+        }
+
+        .carousel-control-next {
+            margin-right: -105px;
+        
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .row {
+            color: white;
+        }
+
+        h2, label {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            margin-bottom: 20px; 
+        }
+
+    </style>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <h2>Formulario con Bootstrap</h2>
+                    <form>
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label for="inputNombre">CATALOGO:</label>
+                                <input type="text" class="form-control" id="inputNombre" placeholder="Numero de catalogo">
+                            </div>
+                            <div class="form-group col-md-9">
+                                <label for="inputApellido">GRADO Y ARMA:</label>
+                                <input type="text" class="form-control" id="inputApellido" placeholder="Ingrese grado y arma">
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail">APELLIDO:</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese sus apellidos">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputTelefono">NOMBRE:</label>
+                                <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese sus nombres">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail">FECHA DE NACIMIENTO:</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese fecha de nacimieto">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputTelefono">LUGAR DE NACIMIENTO:</label>
+                                <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese lugar de nacimiento">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label for="inputEmail">RELIGION:</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese su religion">
+                            </div>
+                            <div class="form-group col-md-9">
+                                <label for="inputTelefono">DIRECCION ACTUAL:</label>
+                                <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese direccion actual">
+                            </div>
+                        </div>
+           
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label for="inputEmail">TELEFONO DE CASA:</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese Telefono de casa">
+                            </div>
+                            <div class="form-group col-md-9">
+                                <label for="inputTelefono">CORREO:</label>
+                                <input type="text" class="form-control" id="inputTelefono" placeholder="Ingresa tu correo">
+                            </div>
+                        </div>
+              
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label for="inputEmail">TELEFONO CELULAR:</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese Telefono celular">
+                            </div>
+                            <div class="form-group col-md-9">
+                                <label for="inputTelefono">CORREO MILITAR:</label>
+                                <input type="text" class="form-control" id="inputTelefono" placeholder="Ingresa tu correo militar">
+                            </div>
+                        </div>
+            
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label for="inputEmail">NIT:</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese NIT">
+                            </div>
+                            <div class="form-group col-md-9">
+                                <label for="inputTelefono">PROFESION U OFICIO:</label>
+                                <input type="text" class="form-control" id="inputTelefono" placeholder="Ingresa tu profesion u oficio">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+              
+                    </form>
+                    <br>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <h2>Formulario con Bootstrap</h2>
+                    <form>
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label for="inputNombre">TIPO DE SANGRE:</label>
+                                <input type="text" class="form-control" id="inputNombre" placeholder="Tipo de sangre">
+                                
+                            </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputApellido">PUESTO QUE DESEMPEÑA:</label>
+                                    <input type="text" class="form-control" id="inputApellido" placeholder="Puesto que desempeña">
+                                </div>
+                            </div>
+                
+                            <div class="row">
+                                <div class="form-group col-md-9">
+                                    <label for="inputEmail"> FECHA DE ALTA EN ESTE COMANDO:</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese fecha.">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="inputTelefono">ORDEN GENERAL NO.</label>
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese No.">
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="form-group col-md-9">
+                                    <label for="inputEmail"> FECHA DE ALTA COMO OFICIAL:</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese fecha.">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="inputTelefono">PROMOCION:</label>
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese No. de promocion">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail"> DPI:</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese DPI">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputTelefono">LUGAR DE EXTENSION:</label>
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese lugar de extension">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail"> NOMBRE DEL PADRE:</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese nombre del padre">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputTelefono">DIRECCION:</label>
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese direccion">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail"> NOMBRE DE LA MADRE:</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese nombre de la madre">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputTelefono">DIRECCION:</label>
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese direccion">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label for="inputEmail"> ESTADO CIVIL:</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese nombre de la madre">
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <label for="inputTelefono">NOMBRE DEL CONYUGE:</label>
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Ingrese direccion">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-2">
+                                    <label for="inputEmail"> TIENE HIJOS:</label>
+                                </div>
+                                <div class="form-group col-md-1">
+                                    <label for="inputTelefono">SI:</label>
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="">
+                                </div>
+                                <div class="form-group col-md-1">
+                                    <label for="inputTelefono">NO:</label>
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="">
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <label for=""></label>
+         
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                    <br>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <h2>Formulario con Bootstrap</h2>
+                    <form>
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label for="inputNombre">NOMBRE:</label>
+                                <input type="text" class="form-control" id="inputNombre" placeholder="Escriba su nombre">
+                            </div>
+                            <div class="form-group col-md-9">
+                                <label for="inputApellido">FECHA DE NACIMIENTO:</label>
+                                <input type="text" class="form-control" id="inputApellido" placeholder="Ingrese fecha">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label for="inputNombre">NOMBRE:</label>
+                                <input type="text" class="form-control" id="inputNombre" placeholder="Escriba su nombre">
+                            </div>
+                            <div class="form-group col-md-9">
+                                <label for="inputApellido">FECHA DE NACIMIENTO:</label>
+                                <input type="text" class="form-control" id="inputApellido" placeholder="Ingrese fecha">
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label for="inputNombre">NOMBRE:</label>
+                                <input type="text" class="form-control" id="inputNombre" placeholder="Escriba su nombre">
+                            </div>
+                            <div class="form-group col-md-9">
+                                <label for="inputApellido">FECHA DE NACIMIENTO:</label>
+                                <input type="text" class="form-control" id="inputApellido" placeholder="Ingrese fecha">
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail">EMAIL:</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputTelefono">TELEFONO:</label>
+                                <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono">
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="inputMensaje">INGRESA ESTATURA,COLOR DE CABELLO, TIPO DE CABELLO, COLOR DE OJOS, CICATRICES (ESPECIFICAR DONDE) Y PESO EN LIBRAS </label>
+                                <textarea class="form-control" id="inputMensaje" rows="3" placeholder="Ingrese en un texto breve los datos"></textarea>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail">EN CASO DE EMERGENCIA COMUNICARSE CON:</label>
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label for="inputTelefono">NOMBRE:</label>
+                                <input type="text" class="form-control" id="inputTelefono" placeholder="">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label for="inputTelefono">TELEFONO:</label>
+                                <input type="text" class="form-control" id="inputTelefono" placeholder="">
+                            </div>
+                        </div>
+                    
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    </body>
+
+</html>
